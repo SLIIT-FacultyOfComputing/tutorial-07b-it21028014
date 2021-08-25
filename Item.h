@@ -9,6 +9,10 @@ class Item {
       // 1. Write the Default Constructor
       // 2. Write the Overloaded Constructor
       // 3. Write the Destructor
+        Item();
+        Item(int item,float price);
+        ~Item();
+  
 
       void setDiscount(float punitPrice);
       float getDiscount();
